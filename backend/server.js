@@ -21,7 +21,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   
-  // "http://localhost:5173"
   cors({
     origin: ["https://class-room-frontend.vercel.app"],
     credentials:true,
